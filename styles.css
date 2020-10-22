@@ -1,0 +1,66 @@
+body{
+    width: 1920px;
+    height: 1024px;
+    background-image: url('./images/background3.jpg');
+    background-size:  1920px 1024px;
+    margin: 0px;
+    color: rgb(163, 148, 97);
+    background-repeat: no-repeat;
+}
+.cont{
+    height: 1024px;
+    width: 1920px;
+    display: flex;
+}
+.sidebar{
+    height: 100%;
+    width: 10%;
+    background-color: white;
+    opacity: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    height: 13.5%;
+    width: 1728px;
+    background-color: white;
+    opacity: 90%;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.sbcon{
+    margin-top: 100px;
+
+}
+a{
+    color: black;
+}
+.home{
+    margin-left: 100px;
+}
+.navcon{
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+.cont2{
+    width: 100%;
+}
+.menuimg{
+    border: white solid 8px;
+    margin: 50px;
+    border-radius: 15px;
+}
+.menuimg:hover{
+    transition: 0.5s ease-in-out;
+    width: 220px;
+    height: 220px;
+}
+#ig{
+    margin-left: 60%;
+}

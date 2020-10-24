@@ -1,11 +1,14 @@
 body{
     width: 1920px;
-    height: 1024px;
+    height: 1080px;
     background-image: url('./images/background3.jpg');
-    background-size:  1920px 1024px;
+    background-size:  1920px 1080px;
     margin: 0px;
     color: rgb(163, 148, 97);
     background-repeat: no-repeat;
+}
+a{
+    color: rgb(163, 148, 97);
 }
 .cont{
     height: 1024px;
@@ -13,7 +16,7 @@ body{
     display: flex;
 }
 .sidebar{
-    height: 100%;
+    height: 1080px;
     width: 10%;
     background-color: white;
     opacity: 90%;
@@ -32,9 +35,6 @@ body{
 .sbcon{
     margin-top: 100px;
 
-}
-a{
-    color: black;
 }
 .home{
     margin-left: 100px;
@@ -62,5 +62,5 @@ a{
     height: 220px;
 }
 #ig{
-    margin-left: 60%;
+    margin-left: 75%;
 }
